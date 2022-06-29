@@ -1,0 +1,181 @@
+/* lato-regular - latin */
+
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/lato-v14-latin-regular.eot');
+/* IE9 Compat Modes */
+src: local('Lato Regular'), local('Lato-Regular'), url('../fonts/lato-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/lato-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+url('../fonts/lato-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+url('../fonts/lato-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../fonts/lato-v14-latin-regular.svg#Lato') format('svg');
+/* Legacy iOS */
+}
+
+/* handlee-regular - latin */
+
+@font-face {
+font-family: 'Handlee';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/handlee-v6-latin-regular.eot');
+/* IE9 Compat Modes */
+src: local('Handlee Regular'), local('Handlee-Regular'), url('../fonts/handlee-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/handlee-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+url('../fonts/handlee-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+url('../fonts/handlee-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../fonts/handlee-v6-latin-regular.svg#Handlee') format('svg');
+/* Legacy iOS */
+}
+
+/* ubuntu-regular - latin */
+
+@font-face {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/ubuntu-v11-latin-regular.eot');
+/* IE9 Compat Modes */
+src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url('../fonts/ubuntu-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/ubuntu-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+url('../fonts/ubuntu-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+url('../fonts/ubuntu-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../fonts/ubuntu-v11-latin-regular.svg#Ubuntu') format('svg');
+/* Legacy iOS */
+}
+a{text-decoration:none!important;} img{transition:0.6s;border:0;} textarea{max-width:100%!important;min-width:100%!important;max-height:300px!important;width:100%!important;}
+button,a.btn{transition:0.5s!important;} button:hover,a.btn:hover{transition:0.5s!important;}
+body{font-family:'Lato';}
+.well{
+  background: #fff;
+  border-radius: 0;
+  border-radius:3px;
+}
+.main_contain .well img{
+  transform: rotate(2deg);
+  overflow: hidden;
+  border-radius:10px;
+  width: 100%;
+  border: 2px solid #fff;
+  max-height: 250px;
+  margin-bottom: 15px;
+  transition: 0.5s;
+  box-shadow: 0px 1px 7px grey;
+}
+.main_contain img:hover{
+  transform: scale(1.07);
+  transition: 0.5s;
+  overflow: hidden;
+  border-radius:2px;
+}
+.main_contain hr{margin:5px;}
+.main_contain .top a{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+#main-page .single .top{
+  margin:0px;
+  line-height: 1.5px;
+  height:65px;
+  overflow-y:hidden;
+}
+
+#main-page .single .top > a{
+  color:#ff6666;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#main-page .single .top > a:hover,#main-page .single p > a:focus{
+  color:#008080;
+  transition: 0.5s;
+}
+
+#main-page .col-md-4{
+  margin-bottom:10px;
+}
+
+.px-15{font-size:15px;} .top-5{margin-top:5px;} .bottom-5{margin-bottom:5px;} .px-18{font-size:18px;} .px-20{font-size:20px;}
+.teal{color:#008080;} .ash{color:grey;} .dark-teal{color:#075050;}
+
+.single_contain .well img{
+  overflow: hidden;
+  border-radius:5px;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  float: left;
+}
+
+.single_contain .well h1{
+  font-size:25px;
+  margin-top: 0px;
+}
+@media(max-width:768px){
+  .single_contain .well h1{
+    font-size:16px;
+  }
+  .comment-box .media-left div{width:0px!important;height:0px!important;}
+}
+
+.single_contain .comment img{
+  border-radius: 50px !important;
+  width: 50px !important;
+  height: 50px !important;
+  border:1px solid #ff7777;
+  padding: 2px;
+  z-index: 1000;
+}
+img.rot:hover,img.rot:focus{
+  transform: rotate(360deg);transition:0.6s;
+}
+.single_contain .side_bar_moms img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border:1px solid #ff7777;
+  padding: 3px;
+  margin-right: 10px;
+}
+
+.bdr-3{border-radius:3px;} .left-right-10{padding-right:10px;padding-left:10px;} .bottom-10{margin-bottom:10px;}
+b span.info{width:100px;text-align:left;font-size:14px;padding:5px;margin-top:2px;margin-bottom:2px;}
+.dotted{font-size:10px;margin-right:10px;color:#ff6666;transition:0.5s;box-shadow:0px 1px 4px grey;border-radius:15px;padding:2px;margin-bottom:5px;}
+.dotted:hover,.dotted:focus{transition:0.5s;color:#fff;background-color:#ff6666;}
+.comment-name{color:#075050;} .pad-5{padding:5px;}
+.comment_fields,#comment{border:1px solid lightgrey;border-bottom:2px solid transparent;border-top: 1px solid lightgrey;outline:none;transition:0.5s;box-shadow: 0 1px 3px grey;}
+.comment_fields:focus,#comment:focus{border-bottom:2px solid grey;border-top: 1px solid grey;transition:0.5s;box-shadow: none;}
+
+/*image Carousel*/
+#myCarousel {margin-bottom: 15px;}
+#myCarousel .carousel-inner{width: 100%;max-height: 300px;overflow: hidden;border-radius: 6px;transition: 0.6s;}
+#myCarousel .carousel-inner .item img{width: 100%;border-radius: 6px;transition: 0.6s;}
+
+.update h4, .search h4{
+  background-color:#555;
+  font-weight:bold;
+  margin:0px;
+  padding:17px 5px;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  color:#fff;
+  border-bottom:4px solid #000;
+  margin-bottom:10px;
+}
+.update input, .search input, .search select{
+  border-top-right-radius:0px;
+  border-top-left-radius:0px;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  height:55px;
+}
+.update button, .search button{
+  padding:14px 5px;
+}
+.no-padding{padding:0px!important;} .no-radius{border-radius:0px!important;} * .well{border-radius:1px!important;}
+#how_con{transition:0.6s;}.rota{transform:rotate(180deg);transition:0.6s;}
+.tags{transition:0.5s}.tags:hover{background-color:#444!important;transition:0.5s;}
